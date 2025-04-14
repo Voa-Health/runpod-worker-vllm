@@ -8,4 +8,5 @@ typing-extensions==4.7.1
 pydantic
 pydantic-settings
 hf-transfer
+bitsandbytes>=0.45.3
 transformers
