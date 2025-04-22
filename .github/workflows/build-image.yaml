@@ -42,7 +42,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          images: ${{ env.REGISTRY }}/Charcot-72B-Instruct-0.2
           tags: |
             type=sha,enable=true,prefix=
             type=ref,enable=true,priority=600,prefix=,suffix=,event=branch
